@@ -40,7 +40,6 @@ body {
 }
 
 .header {
-    font-family: 'Compagnon-Bold';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +47,14 @@ body {
     border-bottom: 1.5px solid;
     border-color: #d16b83;
     background-color:#f5d5e6;
+}
+
+.intro{
+    font-family: 'Compagnon-Bold', sans-serif;
+    font-size: 16px;
+    color: #d16b83;
+    text-align: center;
+    margin: 0;
 }
 
 .content{
