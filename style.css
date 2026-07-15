@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://whilewesip.neocities.org/graphics/background.JPG);
+    background-repeat: round;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.layout{
+    display:flex;
+    padding-top: 10px;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.container-outer{
+    width:900px;
+    border-width:7px;
+    border-style:solid;
+    border-image:url("https://i.imgur.com/2jXrMdE.png") 11 fill round;
+}
+
+.container-inner{
+    border:1px dashed;
+    border-color: #d16b83;
+    padding:10px;
+}
+
+.container{
+    background:white;
+    border:1.5px solid;
+    border-radius:3px;
+    border-color: #d16b83;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-bottom: 1.5px solid;
+    border-color: #d16b83;
+    background-image: url(https://whilewesip.neocities.org/graphics/banner.png);
+}
+
+mark {
+  font-size: 15px;
+  background-color: transparent;
+  background-image: radial-gradient(#e0b8ff 30%, transparent 70%);
+}
+
+.content{
+    display:flex;
+    gap:15px;
+    padding:15px;
+}
+
+.sidebar{
+    width:220px;
+    border:1px solid;
+    padding:10px;
+}
+
+.main{
+    flex:1;
+    border:1px solid;
+    padding:15px;
+}
