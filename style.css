@@ -6,7 +6,7 @@ font-style: normal;
 } 
 
 body {
-    background-color:#54202c;
+    background-color:#fffdb9;
 }
 
 .layout{
@@ -44,7 +44,7 @@ body {
     height: 30px;
     border-bottom: 1.5px solid;
     border-color: #d16b83;
-    background: linear-gradient(to bottom, #ff9ad0, #fffdb9);
+    background: linear-gradient(to bottom, #facfe6, #fffdb9);
 }
 
 #intro{
