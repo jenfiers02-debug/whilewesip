@@ -1,12 +1,12 @@
- @font-face {                  
-font-family: 'Afacad';
-src: url(https://humantooth.neocities.org/fonts/Afacad-Regular.woff2) format('woff2');
+@font-face {                  
+font-family: 'Barecast-Thin';
+src: url(https://humantooth.neocities.org/fonts/Barecast-Regular.woff2) format('woff2');
 font-weight: normal;
 font-style: normal;
 } 
 
 body {
-    background-color: #f5d5e6;
+    background-color:#54202c;
 }
 
 .layout{
@@ -48,7 +48,7 @@ body {
 }
 
 #intro{
-    font-family: 'Afacad', sans-serif;
+    font-family: 'Barecast-Thin', sans-serif;
     font-size: 12px;
     color: #54202c;
     text-align: center;
