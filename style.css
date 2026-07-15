@@ -44,7 +44,7 @@ body {
     height: 30px;
     border-bottom: 1.5px solid;
     border-color: #d16b83;
-    background: radial-gradient(circle, #ff9ad0, #fffdb9);
+    background: linear-gradient(to bottom, #ff9ad0, #fffdb9);
 }
 
 #intro{
