@@ -33,7 +33,7 @@ body {
 }
 
 .container{
-    background:white;
+    background:rgb(230, 31, 31);
     border:1.5px solid;
     border-radius:3px;
     border-color: #d16b83;
@@ -52,7 +52,7 @@ body {
 #intro{
     font-family: 'Afacad', sans-serif;
     font-size: 12px;
-    color: #330812;
+    color: #54202c;
     text-align: center;
     margin: 0;
 }
