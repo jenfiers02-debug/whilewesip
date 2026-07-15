@@ -70,15 +70,13 @@ body {
 
 .sidebar{
     width:220px;
-    border:1px dashed;
-    border-color: #d16b83;
     background: linear-gradient(to bottom, #facfe6, #fffdb9);
     padding:10px;
 }
 
 #sidebar{
     font-family: 'JacquardaBastarda-9', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     color: #54202c;
     text-align: left;
     margin: 0;
