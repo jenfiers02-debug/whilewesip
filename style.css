@@ -180,11 +180,11 @@ font-style: normal;
     /* Banner */
 
     .banner {
-      position: relative;
+       position: relative;
       font-size: 50px;
       font-family: "Punkbabe", pixel, sans-serif;
-      color: #69042a;
-      text-shadow: 0 0 20px #ffffff;
+      color: #edb0b8;
+      text-shadow: 0 0 10px #47001b;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -216,8 +216,6 @@ font-style: normal;
       right: 0;
       bottom: 0;
       height: 100%;
-      background: linear-gradient(to top, #701b3bcc, transparent);
-      pointer-events: none;
     }
     
     
@@ -280,15 +278,15 @@ font-style: normal;
     .column {
       min-width: 0;
       padding: 8px;
-      background: linear-gradient(to bottom, #fffdf8, #cb6090);
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
     .column:first-child {
-      background: linear-gradient(to bottom, #fffdf8, #cb6090);
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
     .column:last-child {
-      background: linear-gradient(to bottom, #fffdf8, #cb6090);
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
       border-left: 1px dotted #47001b;
     }
 
@@ -298,7 +296,7 @@ font-style: normal;
     .box {
       margin-bottom: 8px;
       padding: 6px;
-      background: linear-gradient(to bottom, #ffffff, #a6004b57);
+      background: linear-gradient(to bottom, #ffffff, #a6000057);
       border: 1px solid #f9e0e6;
       border-radius: 8px;
     }
