@@ -39,7 +39,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-;
+    justify-content: space-between;
     align-items: center;
     height: 30px;
     border-bottom: 1.5px dotted;
