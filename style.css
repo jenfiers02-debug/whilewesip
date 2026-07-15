@@ -40,24 +40,13 @@ body {
 .header {
 
     display: flex;
-    text-align: center;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    border: 1px solid;
-    border-radius: 2px;
-    padding: 0px 5px;
-    background: linear-gradient(to bottom, #fefdfc 0%, #fbf9f3 50%, #f5eee6 51%, #fefdf8 100%);
-    justify-content: space-between;
-    align-items: center;
-    
-    /* display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     border-bottom: 1.5px dotted;
     border-color: #d16b83;
     padding: 5px;
-    background: linear-gradient(to bottom, #facfe6, #fffdb9); */
+    background: linear-gradient(to bottom, #facfe6, #fffdb9);
 }
 
 #intro{
