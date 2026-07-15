@@ -70,12 +70,12 @@ body {
 
 .sidebar{
     width:220px;
-    background: linear-gradient(to bottom, #facfe6, #fffdb9);
+    background: linear-gradient(to bottom, #ffffff, #facfe6);
     padding:10px;
 }
 
 #sidebar{
-    font-family: 'JacquardaBastarda-9', sans-serif;
+    font-family: 'georgia';
     font-size: 20px;
     color: #54202c;
     text-align: left;
