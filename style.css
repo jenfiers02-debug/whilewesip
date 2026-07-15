@@ -6,10 +6,7 @@ font-style: normal;
 } 
 
 body {
-    background-image: url(https://whilewesip.neocities.org/graphics/background.JPG);
-    background-repeat: round;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #f5d5e6;
 }
 
 .layout{
@@ -27,7 +24,7 @@ body {
 }
 
 .container-inner{
-    background: #b70a66;
+    background-image:url(https://whilewesip.neocities.org/graphics/background.JPG);
     border:1px dashed;
     border-color: #d16b83;
     padding:10px;
