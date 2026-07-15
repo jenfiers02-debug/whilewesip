@@ -5,11 +5,18 @@ font-weight: normal;
 font-style: normal;
 } 
 
+@font-face {                  
+font-family: 'Barecast';
+src: url(https://humantooth.neocities.org/fonts/Barecast-Regular.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+} 
+
     body {
         margin: 0;
         padding: 20px;
         background: url("https://whilewesip.neocities.org/graphics/background.gif");
-        font-family: "rainy", calibri, verdana, arial;
+        font-family: "Barecast", calibri, verdana, arial;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 1px;
