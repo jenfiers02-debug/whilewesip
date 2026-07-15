@@ -20,7 +20,6 @@ body {
 }
 
 .container-outer{
-    background:#54202c;
     width:900px;
     border-width:7px;
     border-style:solid;
@@ -28,6 +27,7 @@ body {
 }
 
 .container-inner{
+    background: #b70a66;
     border:1px dashed;
     border-color: #d16b83;
     padding:10px;
