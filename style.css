@@ -64,7 +64,7 @@ body {
 .sidebar{
     width:220px;
     height: 20px;
-    background: linear-gradient(to bottom, #ffffff, #facfe6);
+    background: linear-gradient(to bottom, #ffffff 65%, #facfe6);
     padding:5px;
 }
 
