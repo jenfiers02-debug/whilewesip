@@ -325,38 +325,34 @@ font-style: normal;
 
     /* Titles */
 
-    .title {
+       .title {
       margin-bottom: 5px;
       padding: 3px 5px;
-      background: linear-gradient(to right, #ffffff, #f3fadf);
-      border-top: 1px dotted #e8c99f;
-      border-right: 1px dotted #e8c99f;
-      border-bottom: 1px dotted #e8c99f;
-      border-left: 5px solid #d8e7ad;
+      background: linear-gradient(to right, #ffffff, #d88497);
+      border-top: 1px dotted #e28dad;
+      border-right: 1px dotted #e28dad;
+      border-bottom: 1px dotted #e7adbe;
+      border-left: 5px solid #cb6090;
       border-radius: 7px 7px 3px 3px;
       box-shadow: inset 0 0 6px rgba(255,226,238,0.65);
-      font-family: "Gaegu", arial;
       font-size: 15px;
       line-height: 12px;
       letter-spacing: 1px;
       text-transform: lowercase;
-      color: #c37a43;
+      color: #83123d;
     }
 
     .title-big {
       margin-bottom: 6px;
       padding: 4px 6px 3px;
-      background: linear-gradient(to right, #f3fadf, #ffffff, #f3fadf);
+      background: linear-gradient(to right, #d88497, #fffaf3, #d88497);
       border-radius: 10px;
-      font-family: "Gaegu", arial;
-      font-size: 17px;
-      line-height: 13px;
+      font-size: 15px;
+      line-height: 15px;
       letter-spacing: 2px;
       text-align: center;
       text-transform: lowercase;
-      color: #c37a43;
-    }
-
+      color: #83123d;
 
     /* Notes and Lists */
 
