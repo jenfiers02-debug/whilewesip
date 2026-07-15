@@ -63,12 +63,14 @@ body {
 
 .sidebar{
     width:220px;
-    border:1px solid;
+    border:1px dashed;
+    border-color: #54202c;
     padding:10px;
 }
 
 .main{
     flex:1;
-    border:1px solid;
+    border:1px dashed;
+    border-color: #54202c;
     padding:15px;
 }
