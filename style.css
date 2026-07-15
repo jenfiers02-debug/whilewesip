@@ -14,36 +14,33 @@ font-style: normal;
         line-height: 16px;
         letter-spacing: 1px;
         text-align: left;
-        text-shadow: 0 0 1px #ddd1bc;
-        color: #b58f71;
+         text-shadow: 0 0 1px #e8a5bf;
+        color: #83123d;
     }
 
     a {
-      color: #d88497;
+      color: #47001b;
       text-decoration: none;
       transition: 0.2s ease;
     }
 
     a:hover {
-      color: #c37a43;
+      color: #47001b;
       text-shadow: 0 0 4px #ffe2ee;
     }
 
     a:active {
-      color: #a76d3f;
+      color: #47001b;
     }
 
     b {
       font-weight: bold;
-      color: #c37a43;
+      color: #ab0142;
     }
 
     i {
-      color: #a9b778;
+      color: #e28dad;
     }
-
-   
-
 
     /* Scrollbar */
 
