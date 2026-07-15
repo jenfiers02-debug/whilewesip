@@ -12,12 +12,19 @@ font-weight: normal;
 font-style: normal;
 } 
 
+@font-face {                  
+font-family: 'Punkbabe';
+src: url(https://whilewesip.neocities.org/graphics/fonts/PUNKBABE%20TRIAL.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+} 
+
     body {
         margin: 0;
         padding: 20px;
         background: url("https://whilewesip.neocities.org/graphics/background.gif");
         font-family: "Barecast", calibri, verdana, arial;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 16px;
         letter-spacing: 1px;
         text-align: left;
@@ -174,8 +181,9 @@ font-style: normal;
 
     .banner {
       position: relative;
-      font-size: 20px;
-      color: #47001b;
+      font-size: 50px;
+      font-family: "Punkbabe", pixel, sans-serif;
+      color: #f8bdd3;
       display: flex;
       align-items: center;
       justify-content: center;
