@@ -33,6 +33,12 @@ body {
 }
 
 .header {
+    @font-face {                  
+font-family: 'Compagnon-Bold';
+src: url(https://humantooth.neocities.org/fonts/Compagnon-Bold.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+} 
     display: flex;
     justify-content: center;
     align-items: center;
