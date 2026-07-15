@@ -13,8 +13,8 @@ font-style: normal;
 } 
 
 @font-face {                  
-font-family: 'Punkbabe';
-src: url(https://whilewesip.neocities.org/graphics/fonts/PUNKBABE%20TRIAL.woff2) format('woff2');
+font-family: 'Love';
+src: url(https://whilewesip.neocities.org/graphics/fonts/Love.woff2) format('woff2');
 font-weight: normal;
 font-style: normal;
 } 
@@ -182,7 +182,7 @@ font-style: normal;
     .banner {
        position: relative;
       font-size: 50px;
-      font-family: "Punkbabe", pixel, sans-serif;
+      font-family: "Love", pixel, sans-serif;
       color: #edb0b8;
       text-shadow: 0 0 10px #47001b;
       display: flex;
