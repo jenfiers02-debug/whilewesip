@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 30px;
-    border-bottom: 1.5px solid;
+    border-bottom: 1.5px dotted;
     border-color: #d16b83;
     background: linear-gradient(to bottom, #facfe6, #fffdb9);
 }
@@ -64,13 +64,15 @@ body {
 .sidebar{
     width:220px;
     border:1px dashed;
-    border-color: #54202c;
+    border-color: #d16b83;
+    background: linear-gradient(to bottom, #facfe6, #fffdb9);
     padding:10px;
 }
 
 .main{
     flex:1;
     border:1px dashed;
-    border-color: #54202c;
+     border-color: #d16b83;
+    background: linear-gradient(to bottom, #facfe6, #fffdb9);
     padding:15px;
 }
