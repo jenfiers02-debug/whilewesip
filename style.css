@@ -321,7 +321,7 @@ font-style: normal;
 
     /* Titles */
 
-       .title {
+      .title {
       margin-bottom: 5px;
       padding: 3px 5px;
       background: linear-gradient(to right, #ffffff, #d88497);
@@ -603,6 +603,22 @@ font-style: normal;
       height: 100%;
     }
 
+/*  Entries box*/
+.entries-list {
+      margin: 5px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .entries-list li {
+      padding: 2px 0;
+      border-bottom: 1px dotted #fff3f7;
+      color: #fff3f7;
+    }
+
+    .list-icon {
+      opacity: 0.5;
+    }
 /* Actualizaciones del diario */
 
     .diary-blog {
