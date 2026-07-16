@@ -447,8 +447,10 @@ font-style: normal;
     }
 
     /* Venus */
-    .venus {
+   .venus {
     position: absolute;
-    top: 150px;
-    left: 50px;
+    width: 430px;
+    transform: rotate(-35deg);
+    top: 450px;
+    left: 540px;
 }
