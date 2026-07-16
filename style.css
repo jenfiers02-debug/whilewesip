@@ -613,17 +613,17 @@ font-style: normal;
       border-bottom: 1px solid #f0c5c5;
     }
 
-  .right-column {
+  .column {
       min-width: 0;
       padding: 8px;
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-  .right-column:first-child {
+  .column:first-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-  .right-column:last-child {
+  .column:last-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
       border-left: 1px dotted #47001b;
     }
