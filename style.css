@@ -605,7 +605,7 @@ font-style: normal;
 
      /* Main columns */
 
-    .main {
+    .diary-main {
       display: grid;
       grid-template-columns: 3fr 1fr;
       gap: 1px;
@@ -613,17 +613,17 @@ font-style: normal;
       border-bottom: 1px solid #f0c5c5;
     }
 
-    .column {
+    .right-column {
       min-width: 0;
       padding: 8px;
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-    .column:first-child {
+    .right-column:first-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-    .column:last-child {
+    .right-column:last-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
       border-left: 1px dotted #47001b;
     }
@@ -631,7 +631,7 @@ font-style: normal;
 
     /* Sections */
 
-    .box {
+    .entries-box {
       margin-bottom: 8px;
       padding: 6px;
       background: linear-gradient(to bottom, #ffffff, #a6000057);
@@ -639,25 +639,17 @@ font-style: normal;
       border-radius: 8px;
     }
 
-    .box:last-child {
+    .entries-box:last-child {
       margin-bottom: 0;
     }
 
-    .box p {
+    .entries-box p {
       margin: 0 0 7px;
     }
 
-    .box p:last-child {
+    .entries-box p:last-child {
       margin-bottom: 0;
     }
-
-    .intro-pixel {
-      float: left;
-      margin: 10px;
-      opacity: 0.7;
-      filter: grayscale(40%);
-    }
-
 
     /* Titles */
 
