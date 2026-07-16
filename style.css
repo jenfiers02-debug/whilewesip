@@ -631,6 +631,19 @@ font-style: normal;
       gap: 6px;
     }
 
+     .diary-title-big {
+      margin-bottom: 6px;
+      padding: 4px 6px 3px;
+      background: linear-gradient(to right, #d88497, #fffaf3, #d88497);
+      border-radius: 10px;
+      font-size: 15px;
+      line-height: 15px;
+      letter-spacing: 2px;
+      text-align: center;
+      text-transform: lowercase;
+      color: #83123d;
+    }
+
     .diary-post {
       display: grid;
       grid-template-columns: 45px 1fr;
