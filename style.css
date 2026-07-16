@@ -220,9 +220,11 @@ font-style: normal;
     
     .divider{
     width:100%;
-    background-image: url("https://whilewesip.neocities.org/graphics/pinklace.gif");
-    background-repeat: repeat-x; 
-    background-position: center;
+    height:50px;              /* igual a la altura de la imagen */
+    background-image:url("https://whilewesip.neocities.org/graphics/pinklace.gif");
+    background-repeat:repeat-x;
+    background-position:left top;
+    background-size:auto 50px; /* mantiene la proporción */
 }
 
 .divider img{
