@@ -223,13 +223,12 @@ font-style: normal;
     background-image: url("https://whilewesip.neocities.org/graphics/pinklace.gif");
     background-repeat: repeat-x; 
     background-position: center;
-    background-size: auto;
 }
 
 .divider img{
     width:100%;
-    max-width:1600px;
-    display:block;
+    max-width:600px;
+    display:flex;
 }
     
     /* Site name */
