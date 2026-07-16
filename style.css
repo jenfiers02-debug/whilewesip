@@ -619,11 +619,11 @@ font-style: normal;
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-    .right-column:first-child {
+  .right-column:first-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
     }
 
-    .right-column:last-child {
+  .right-column:last-child {
       background: linear-gradient(to bottom, #fffdf8, #edb0b8);
       border-left: 1px dotted #47001b;
     }
