@@ -603,22 +603,49 @@ font-style: normal;
       height: 100%;
     }
 
+/* Entries column */
+
+     .diary-main {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: 1px;
+      background: #f2d5e4;
+      border-bottom: 1px solid #f0c5c5;
+    }
+
+  .right-column {
+      min-width: 0;
+      padding: 8px;
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
+    }
+
+    .right-column:first-child {
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
+    }
+
+    .right-column:last-child {
+      background: linear-gradient(to bottom, #fffdf8, #edb0b8);
+      border-left: 1px dotted #47001b;
+    }
+
 /*  Entries box*/
+
 .entries-list {
       margin: 5px 0 0;
       padding: 0;
       list-style: none;
     }
 
-    .entries-list li {
+.entries-list li {
       padding: 2px 0;
       border-bottom: 1px dotted #fff3f7;
       color: #fff3f7;
     }
 
-    .list-icon {
+.entries-list-icon {
       opacity: 0.5;
     }
+
 /* Actualizaciones del diario */
 
     .diary-blog {
