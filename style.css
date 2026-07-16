@@ -378,26 +378,6 @@ font-style: normal;
       opacity: 0.5;
     }
 
-
-    /* Mini boxes */
-
-    .mini-boxes {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 5px;
-      margin-top: 7px;
-    }
-
-    .mini-box {
-      padding: 5px;
-      border: 1px dotted #83123d;
-      border-radius: 7px;
-      font-size: 13px;
-      text-align: center;
-      color: #83123d;
-    }
-
-
     /* Miniblog / updates */
 
     .miniblog {
