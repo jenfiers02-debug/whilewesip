@@ -483,9 +483,145 @@ font-style: normal;
       text-shadow: 0 0 4px #ffffff;
     }
   
-/* pagina diary */
+/* DIARY */
+/* Container */
 
-.diary {
+    .diary-layout {
+      max-width: 1200px;
+      margin: 25px auto;
+      overflow: hidden;
+      background: #ab0142;
+      border: 1px dotted #ab0142;
+      border-radius: 10px;
+    }
 
-}
+
+    /* Top decoration */
+
+    .diary-lace {
+      height: 36px;
+      background:
+        linear-gradient(to bottom, rgba(255,255,255,0.45), rgba(255,226,238,0.18)),
+        #fffdf8 url("https://whilewesip.neocities.org/graphics/banner.gif") repeat-x;
+    }
+
+
+    /* Navi */
+
+    .diary-navigation {
+      padding: 7px 7px 0;
+      background: linear-gradient(to bottom, #fffdf8, #fff3f7);
+      border-top: 1px dotted #d7ab7d;
+      border-bottom: 1px solid #d7ab7d;
+      box-shadow:
+        inset 0 1px 0 #ffffff,
+        inset 0 -1px 0 rgba(216,231,173,0.45);
+    }
+
+    .diary-navi-link {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .diary-navi-link a {
+      flex: 1 1 0;
+      position: relative;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      min-width: 0;
+      padding: 4px 7px 2px;
+      background: linear-gradient(to bottom, #ffffff 0%, #fff7ec 48%, #f9e8d3 100%);
+      border: 1px dotted #e8c99f;
+      border-bottom: 1px solid #fffdf8;
+      border-radius: 9px 9px 0 0;
+      box-shadow:
+        inset 1px 1px 0 rgba(255,255,255,0.95),
+        inset -1px 0 0 rgba(255,226,238,0.55),
+        1px 0 0 rgba(255,255,255,0.5);
+      font-family: "Silkscreen", monospace;
+      font-size: 10px;
+      font-weight: normal;
+      line-height: 14px;
+      letter-spacing: 1px;
+      text-align: center;
+      white-space: nowrap;
+      color: #83123d;
+      text-shadow: 0 1px 0 #ffffff;
+      transition: 0.22s ease;
+    }
+
+    .diary-navi-link a::before {
+      content: "";
+      position: absolute;
+      left: 5px;
+      right: 5px;
+      top: 3px;
+      height: 1px;
+      background: rgba(255,255,255,0.95);
+    }
+
+    .diary-navi-link a:hover {
+      border-color: #d7ab7d;
+      border-bottom-color: #eecaa0;
+      transform: translateY(-2px);
+      z-index: 3;
+    }
+
+    .diary-nav-icon {
+      margin-right: 4px;
+      opacity: 0.55;
+      transition: 0.22s ease;
+    }
+
+    .diary-navi-link a:hover .diary-nav-icon {
+      opacity: 1;
+      transform: rotate(-8deg);
+    }
+
+
+    /* Banner */
+
+    .diary-banner {
+       position: relative;
+      font-size: 40px;
+      font-family: "Love", pixel, sans-serif;
+      color: #edb0b8;
+      text-shadow: 0 0 10px #47001b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100px;
+      background-color:#d88497;
+      border-bottom: 1px dotted #fff8cf;
+    }
+
+    .diary-banner::before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      pointer-events: none;
+      box-shadow:
+        inset 0 0 20px rgb(232 201 201 / 65%),
+        inset 0 0 20px #fff3f7;
+    }
+
+    .diary-banner::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+    }
+    
+
   
