@@ -218,12 +218,15 @@ font-style: normal;
 
     /* Divider */
     
+.divider-wrapper {
+    padding-top: 20px;      /* aire encima */
+    background: #fff8f8;    /* el mismo fondo de tu página */
+}
+
 .divider {
-    width: 100%;
-    height: 20px;
+    height: 32px;           /* altura de la cenefa */
     background: url("https://whilewesip.neocities.org/graphics/divider.png") repeat-x left top;
-     background-color: #ffffff
-  }
+}
     
     /* Site name */
 
