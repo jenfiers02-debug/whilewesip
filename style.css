@@ -220,9 +220,10 @@ font-style: normal;
     
     .divider{
     width:100%;
-    display:flex;
-    justify-content:center;
-    margin-top:-5px; 
+    background-image: url("https://whilewesip.neocities.org/graphics/pinklace.gif");
+    background-repeat: repeat-x; 
+    background-position: center;
+    background-size: auto;
 }
 
 .divider img{
