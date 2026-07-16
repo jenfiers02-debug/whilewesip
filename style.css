@@ -80,7 +80,7 @@ font-style: normal;
     /* Container */
 
     .layout {
-      max-width: 722px;
+      max-width: 900px;
       margin: 25px auto;
       overflow: hidden;
       background: #ab0142;
@@ -268,7 +268,7 @@ font-style: normal;
 
      .main {
       display: grid;
-      grid-template-columns: 2.2fr 1fr;
+      grid-template-columns: 3fr 1fr;
       gap: 1px;
       background: #f2d5e4;
       border-bottom: 1px solid #f0c5c5;
