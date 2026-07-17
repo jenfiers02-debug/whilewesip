@@ -17,7 +17,7 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'PATH HERE';
+const s_stylePath = 'GUESTBOOK.CSS';
 const s_formId = 'ID HERE';
 const s_nameId = 'ID HERE';
 const s_websiteId = 'ID HERE';
